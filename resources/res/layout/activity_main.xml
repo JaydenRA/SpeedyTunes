@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="20sp" android:id="@+id/speed_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Current Speed: " android:layout_centerInParent="true"/>
+    <Button android:id="@+id/start_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+    <Button android:id="@+id/stop_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Stop" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+</RelativeLayout>
